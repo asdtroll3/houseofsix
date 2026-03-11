@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>House of Six — Premium Hair Salon</title>
+  <meta name="description" content="House of Six — Where artistry meets identity. Premium hair salon services." />
+
+  <!-- Google Fonts: Playfair Display (display) + Jost (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="hos_style.css" />
+</head>
+<body>
+
+  <!-- Grain texture overlay (decorative) -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ══════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+
+      <a href="#hero" class="nav-logo">
+        House<span class="logo-of">of</span>Six
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#book">Book</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#prices">Prices</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#book" class="nav-book-btn">Book Now</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile overlay menu -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <ul>
+        <li><a href="#book"    class="mob-link">Book</a></li>
+        <li><a href="#team"    class="mob-link">Team</a></li>
+        <li><a href="#prices"  class="mob-link">Prices</a></li>
+        <li><a href="#about"   class="mob-link">About</a></li>
+        <li><a href="#gallery" class="mob-link">Gallery</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ══════════════════════════════════════
+         1. HERO
+    ══════════════════════════════════════ -->
+    <section class="hero" id="hero">
+      <!-- Background image -->
+      <div class="hero-bg">
+        <img
+          src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&auto=format&fit=crop&q=85"
+          alt="Luxury hair salon interior"
+          class="hero-img"
+          loading="eager"
+        />
+        <div class="hero-vignette"></div>
+      </div>
+
+      <!-- Decorative line ornaments -->
+      <div class="hero-ornament hero-ornament--left" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="hero-ornament hero-ornament--right" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-pretitle fade-in">Est. 2026 &nbsp;·&nbsp; Oradea, RO</p>
+
+        <h1 class="hero-title fade-in d1">
+          <em>House</em>
+          <span class="title-rule" aria-hidden="true"></span>
+          of Six
+        </h1>
+
+        <p class="hero-sub fade-in d2">Where artistry meets identity.</p>
+
+        <a href="#book" class="hero-cta fade-in d3">
+          <span class="cta-text">Book Your Visit</span>
+          <span class="cta-arrow">→</span>
+        </a>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-bar"></div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         2. BOOK NOW
+    ══════════════════════════════════════ -->
+    <section class="book section" id="book">
+      <div class="container book-inner">
+
+        <div class="book-left reveal">
+          <p class="eyebrow">Reserve Your Chair</p>
+          <h2 class="sec-title">Book<br /><em>Now</em></h2>
+          <p class="book-desc">
+            Ready for a transformation? Choose your stylist, pick a date,
+            and let us do the rest. Walk-ins welcome, but appointments
+            get priority.
+          </p>
+          <div class="book-contact-links">
+            <a href="tel:+13475550199" class="blink">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.06 6.06l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+              +40 123 456789
+            </a>
+            <a href="https://www.instagram.com/h6.barbershop/" target="_blank" rel="noopener" class="blink">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              @h6.barbershop
+            </a>
+          </div>
+        </div>
+
+        <div class="book-form-wrap reveal d1">
+          <form class="book-form" id="bookForm" novalidate>
+            <div class="form-row">
+              <div class="fg">
+                <label for="bName">Full Name</label>
+                <input type="text" id="bName" name="bName" placeholder="Jane Doe" required />
+              </div>
+              <div class="fg">
+                <label for="bEmail">Email</label>
+                <input type="email" id="bEmail" name="bEmail" placeholder="jane@email.com" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="fg">
+                <label for="bService">Service</label>
+                <select id="bService" name="bService">
+                  <option value="">Select a service…</option>
+                  <option>Haircut &amp; Blowout</option>
+                  <option>Colour &amp; Highlights</option>
+                  <option>Balayage</option>
+                  <option>Keratin Treatment</option>
+                  <option>Extensions</option>
+                  <option>Bridal / Special Event</option>
+                </select>
+              </div>
+              <div class="fg">
+                <label for="bDate">Preferred Date</label>
+                <input type="date" id="bDate" name="bDate" />
+              </div>
+            </div>
+            <div class="fg">
+              <label for="bNotes">Notes (optional)</label>
+              <textarea id="bNotes" name="bNotes" rows="3" placeholder="Any details, inspiration images, requests…"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+              <span>Confirm Booking</span>
+              <span class="btn-shine" aria-hidden="true"></span>
+            </button>
+            <p class="book-success" id="bookSuccess">✦ We've received your request — see you soon!</p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         3. OUR HAIRDRESSERS
+    ══════════════════════════════════════ -->
+    <section class="team section" id="team">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <p class="eyebrow">The Artists</p>
+          <h2 class="sec-title">Our <em>Hairdressers</em></h2>
+          <p class="sec-sub">Our founding duo — four more chairs are being filled. Watch this space.</p>
+        </div>
+
+        <div class="team-grid">
+
+          <!-- Stylist 1 -->
+          <article class="stylist-card reveal">
+            <div class="stylist-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=500&auto=format&fit=crop&q=80"
+                alt="Roli Sz. — Senior Stylist"
+                loading="lazy"
+              />
+              <div class="stylist-hover">
+                <a href="#book" class="stylist-book-btn">Book Roli</a>
+              </div>
+            </div>
+            <div class="stylist-info">
+              <h3>Roli Sz.</h3>
+              <p class="stylist-role">Senior Stylist</p>
+              <ul class="stylist-tags"><li>Taper Fade</li><li>Textured Crop</li><li>Beard Fade</li></ul>
+            </div>
+          </article>
+
+          <!-- Stylist 2 -->
+          <article class="stylist-card reveal d1">
+            <div class="stylist-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1567894340315-735d7c361db0?w=500&auto=format&fit=crop&q=80"
+                alt="David U. — Senior Stylist"
+                loading="lazy"
+              />
+              <div class="stylist-hover">
+                <!-- <p>Precision cuts and texture specialist. Known for transformative before &amp; afters.</p> -->
+                <a href="#book" class="stylist-book-btn">Book David</a>
+              </div>
+            </div>
+            <div class="stylist-info">
+              <h3>David U.</h3>
+              <p class="stylist-role">Senior Stylist</p>
+              <ul class="stylist-tags"><li>Precision Cut</li><li>Texture</li><li>Extensions</li></ul>
+            </div>
+          </article>
+
+          <!-- Placeholder 3 -->
+          <article class="stylist-card stylist-card--pending reveal d2">
+            <div class="stylist-pending-img">
+              <div class="pending-pulse"></div>
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <div class="stylist-info stylist-info--pending">
+              <p class="pending-badge">Joining Soon</p>
+              <h3 class="pending-name">Chair No. 3</h3>
+              <p class="stylist-role">Looking for the right artist…</p>
+              <p class="pending-msg">We're searching for someone exceptional to fill this chair. Know someone? Reach out.</p>
+            </div>
+          </article>
+
+          <!-- Placeholder 4 -->
+          <article class="stylist-card stylist-card--pending reveal">
+            <div class="stylist-pending-img">
+              <div class="pending-pulse"></div>
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <div class="stylist-info stylist-info--pending">
+              <p class="pending-badge">Joining Soon</p>
+              <h3 class="pending-name">Chair No. 4</h3>
+              <p class="stylist-role">Looking for the right artist…</p>
+              <p class="pending-msg">We're searching for someone exceptional to fill this chair. Know someone? Reach out.</p>
+            </div>
+          </article>
+
+          <!-- Placeholder 5 -->
+          <article class="stylist-card stylist-card--pending reveal d1">
+            <div class="stylist-pending-img">
+              <div class="pending-pulse"></div>
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <div class="stylist-info stylist-info--pending">
+              <p class="pending-badge">Joining Soon</p>
+              <h3 class="pending-name">Chair No. 5</h3>
+              <p class="stylist-role">Looking for the right artist…</p>
+              <p class="pending-msg">We're searching for someone exceptional to fill this chair. Know someone? Reach out.</p>
+            </div>
+          </article>
+
+          <!-- Placeholder 6 -->
+          <article class="stylist-card stylist-card--pending reveal d2">
+            <div class="stylist-pending-img">
+              <div class="pending-pulse"></div>
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <div class="stylist-info stylist-info--pending">
+              <p class="pending-badge">Joining Soon</p>
+              <h3 class="pending-name">Chair No. 6</h3>
+              <p class="stylist-role">Looking for the right artist…</p>
+              <p class="pending-msg">We're searching for someone exceptional to fill this chair. Know someone? Reach out.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         4. PRICES
+    ══════════════════════════════════════ -->
+    <section class="prices section" id="prices">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <p class="eyebrow">Transparent Pricing</p>
+          <h2 class="sec-title"><em>Prices</em></h2>
+          <p class="sec-sub">Every service includes a consultation, wash, and finish.</p>
+        </div>
+
+        <!-- Tabs -->
+        <div class="price-tabs reveal">
+          <button class="tab-btn active" data-tab="cut">Cuts &amp; Style</button>
+          <button class="tab-btn" data-tab="colour">Colour</button>
+          <button class="tab-btn" data-tab="treatment">Treatments</button>
+        </div>
+
+        <!-- Cut & Style panel -->
+        <div class="price-panel active" id="tab-cut">
+          <div class="price-list">
+            <div class="price-row reveal"><span class="pr-name">Women's Cut &amp; Blowout</span><span class="pr-dots"></span><span class="pr-price">$95</span></div>
+            <div class="price-row reveal d1"><span class="pr-name">Men's Cut</span><span class="pr-dots"></span><span class="pr-price">$55</span></div>
+            <div class="price-row reveal d2"><span class="pr-name">Children's Cut (under 12)</span><span class="pr-dots"></span><span class="pr-price">$40</span></div>
+            <div class="price-row reveal"><span class="pr-name">Blowout &amp; Style</span><span class="pr-dots"></span><span class="pr-price">$65</span></div>
+            <div class="price-row reveal d1"><span class="pr-name">Updo / Special Event</span><span class="pr-dots"></span><span class="pr-price">from $120</span></div>
+            <div class="price-row reveal d2"><span class="pr-name">Bridal Hair</span><span class="pr-dots"></span><span class="pr-price">from $200</span></div>
+          </div>
+        </div>
+
+        <!-- Colour panel -->
+        <div class="price-panel" id="tab-colour">
+          <div class="price-list">
+            <div class="price-row reveal"><span class="pr-name">Full Colour / Tint</span><span class="pr-dots"></span><span class="pr-price">from $110</span></div>
+            <div class="price-row reveal d1"><span class="pr-name">Partial Highlights</span><span class="pr-dots"></span><span class="pr-price">from $130</span></div>
+            <div class="price-row reveal d2"><span class="pr-name">Full Highlights</span><span class="pr-dots"></span><span class="pr-price">from $175</span></div>
+            <div class="price-row reveal"><span class="pr-name">Balayage</span><span class="pr-dots"></span><span class="pr-price">from $195</span></div>
+            <div class="price-row reveal d1"><span class="pr-name">Vivid / Fantasy Colour</span><span class="pr-dots"></span><span class="pr-price">from $220</span></div>
+            <div class="price-row reveal d2"><span class="pr-name">Toner / Gloss</span><span class="pr-dots"></span><span class="pr-price">$55</span></div>
+          </div>
+        </div>
+
+        <!-- Treatments panel -->
+        <div class="price-panel" id="tab-treatment">
+          <div class="price-list">
+            <div class="price-row reveal"><span class="pr-name">Keratin Smoothing Treatment</span><span class="pr-dots"></span><span class="pr-price">from $280</span></div>
+            <div class="price-row reveal d1"><span class="pr-name">Deep Conditioning Mask</span><span class="pr-dots"></span><span class="pr-price">$45</span></div>
+            <div class="price-row reveal d2"><span class="pr-name">Scalp Treatment</span><span class="pr-dots"></span><span class="pr-price">$60</span></div>
+            <div class="price-row reveal"><span class="pr-name">Olaplex Bond Repair</span><span class="pr-dots"></span><span class="pr-price">$80</span></div>
+            <div class="price-row reveal d1"><span class="pr-name">Hair Extensions (per row)</span><span class="pr-dots"></span><span class="pr-price">from $350</span></div>
+            <div class="price-row reveal d2"><span class="pr-name">Gloss &amp; Shine Treatment</span><span class="pr-dots"></span><span class="pr-price">$50</span></div>
+          </div>
+        </div>
+
+        <p class="price-note reveal">Prices vary by stylist level and hair length. A full quote will be given at consultation.</p>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         5. ABOUT US
+    ══════════════════════════════════════ -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+
+        <div class="about-images reveal">
+          <div class="about-img-main">
+            <img
+              src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=700&auto=format&fit=crop&q=80"
+              alt="Salon interior"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-img-accent reveal d2">
+            <img
+              src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=500&auto=format&fit=crop&q=80"
+              alt="Stylist at work"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-stat">
+            <span class="stat-num">6</span>
+            <span class="stat-label">Specialists</span>
+          </div>
+        </div>
+
+        <div class="about-text reveal d1">
+          <p class="eyebrow">Our Story</p>
+          <h2 class="sec-title">About<br /><em>House of Six</em></h2>
+
+          <p>
+            Founded in 2018 by six friends who shared a single conviction: that a great
+            haircut is not a luxury — it's a statement. We built our studio in the heart
+            of Brooklyn as an antidote to the conveyor-belt salon experience.
+          </p>
+          <p>
+            Every detail of the space was chosen deliberately — warm lighting, curated
+            playlists, and a pace that never feels rushed. We want you to leave not just
+            looking your best, but feeling genuinely looked after.
+          </p>
+          <p>
+            Our six stylists bring diverse training from New York, London, and Paris.
+            Collectively, we cover every technique, texture, and hair type. What unites
+            us is a commitment to craft, honesty, and a good conversation.
+          </p>
+
+          <div class="about-values">
+            <div class="av-item">
+              <span class="av-icon">✦</span>
+              <div><strong>No Rush</strong><p>Every appointment gets unhurried, focused attention.</p></div>
+            </div>
+            <div class="av-item">
+              <span class="av-icon">✦</span>
+              <div><strong>Free Consultation</strong><p>We talk before we touch — always.</p></div>
+            </div>
+            <div class="av-item">
+              <span class="av-icon">✦</span>
+              <div><strong>All Hair Welcome</strong><p>Curly, coily, fine, thick — we do it all.</p></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Testimonials sub-section -->
+      <div class="container testimonials-wrap">
+        <div class="section-header reveal">
+          <p class="eyebrow">Client Words</p>
+          <h3 class="sec-title" style="font-size:clamp(1.8rem,3.5vw,2.8rem)"><em>What They Say</em></h3>
+        </div>
+
+        <div class="testi-grid">
+          <article class="testi-card reveal">
+            <div class="testi-stars">★★★★★</div>
+            <blockquote>"Sofia understood my hair better than I did. The balayage came out absolutely perfect — I've had so many compliments."</blockquote>
+            <footer><strong>Camille D.</strong><span>Oradea, RO</span></footer>
+          </article>
+          <article class="testi-card reveal d1">
+            <div class="testi-stars">★★★★★</div>
+            <blockquote>"The vibe of this place is unmatched. It feels like a members club, not a salon. I will never go anywhere else."</blockquote>
+            <footer><strong>Priya N.</strong><span>Oradea, RO</span></footer>
+          </article>
+          <article class="testi-card reveal d2">
+            <div class="testi-stars">★★★★★</div>
+            <blockquote>"Mila fixed a terrible cut I got elsewhere in one session. Absolute miracle worker. Booked again before I even left."</blockquote>
+            <footer><strong>Rachel T.</strong><span>Oradea, RO</span></footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         6. GALLERY / PICTURES
+    ══════════════════════════════════════ -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <p class="eyebrow">The Work</p>
+          <h2 class="sec-title"><em>Pictures</em></h2>
+          <p class="sec-sub">A glimpse into the transformations that happen inside House of Six.</p>
+        </div>
+
+        <div class="gallery-grid">
+
+          <div class="gal-item gal-tall reveal" data-idx="0">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&auto=format&fit=crop&q=80" alt="Curl transformation" loading="lazy" />
+            <div class="gal-caption"><span>Curl Refresh</span></div>
+          </div>
+          <div class="gal-item reveal d1" data-idx="1">
+            <img src="https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600&auto=format&fit=crop&q=80" alt="Balayage" loading="lazy" />
+            <div class="gal-caption"><span>Balayage</span></div>
+          </div>
+          <div class="gal-item reveal d2" data-idx="2">
+            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&auto=format&fit=crop&q=80" alt="Salon interior" loading="lazy" />
+            <div class="gal-caption"><span>The Studio</span></div>
+          </div>
+          <div class="gal-item reveal" data-idx="3">
+            <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=600&auto=format&fit=crop&q=80" alt="Blowout" loading="lazy" />
+            <div class="gal-caption"><span>Blowout &amp; Style</span></div>
+          </div>
+          <div class="gal-item gal-wide reveal d1" data-idx="4">
+            <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=900&auto=format&fit=crop&q=80" alt="Colour process" loading="lazy" />
+            <div class="gal-caption"><span>Colour Session</span></div>
+          </div>
+          <div class="gal-item reveal" data-idx="5">
+            <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600&auto=format&fit=crop&q=80" alt="Highlights" loading="lazy" />
+            <div class="gal-caption"><span>Sun-Kissed Highlights</span></div>
+          </div>
+          <div class="gal-item reveal d1" data-idx="6">
+            <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&auto=format&fit=crop&q=80" alt="Classic cut" loading="lazy" />
+            <div class="gal-caption"><span>Precision Cut</span></div>
+          </div>
+          <div class="gal-item reveal d2" data-idx="7">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&auto=format&fit=crop&q=80" alt="Natural hair" loading="lazy" />
+            <div class="gal-caption"><span>Natural Texture</span></div>
+          </div>
+          <div class="gal-item reveal" data-idx="8">
+            <img src="https://images.unsplash.com/photo-1567894340315-735d7c361db0?w=500&auto=format&fit=crop&q=80" alt="Updo" loading="lazy" />
+            <div class="gal-caption"><span>Bridal Updo</span></div>
+          </div>
+          <div class="gal-item reveal" data-idx="9">
+            <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?w=500&auto=format&fit=crop&q=80" alt="Updo" loading="lazy" />
+            <div class="gal-caption"><span>Fade</span></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <div class="footer-logo">House<span class="logo-of">of</span>Six</div>
+        <p>Where artistry meets identity.<br />Oradea, RO · Mon–Sat 8am–5pm</p>
+      </div>
+
+      <nav class="footer-nav">
+        <p class="fn-label">Navigate</p>
+        <a href="#book">Book Now</a>
+        <a href="#team">Our Team</a>
+        <a href="#prices">Prices</a>
+        <a href="#about">About Us</a>
+        <a href="#gallery">Gallery</a>
+      </nav>
+
+      <div class="footer-contact">
+        <p class="fn-label">Contact</p>
+        <a href="tel:+13475550199">+40 123 456789</a>
+        <!-- <a href="/cdn-cgi/l/email-protection#f49c9198989bb49c9b8187919b92879d8cda979b99"><span class="__cf_email__" data-cfemail="94fcf1f8f8fbd4fcfbe1e7f1fbf2e7fdecbaf7fbf9">[email&#160;protected]</span></a> -->
+        <a href="https://www.instagram.com/h6.barbershop/" target="_blank" rel="noopener">@h6.barbershop</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://www.instagram.com/h6.barbershop/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+        </a>
+        <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/></svg>
+        </a>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="footerYear"></span> House of Six. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════
+       LIGHTBOX
+  ══════════════════════════════════════ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery viewer">
+    <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lb-prev"  id="lbPrev"  aria-label="Previous">‹</button>
+    <button class="lb-next"  id="lbNext"  aria-label="Next">›</button>
+    <div class="lb-inner">
+      <img id="lbImg" src="" alt="" />
+      <p class="lb-cap" id="lbCap"></p>
+    </div>
+  </div>
+
+  <script src="hos_script.js"></script>
+</body>
+</html>
